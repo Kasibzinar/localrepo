@@ -1,0 +1,92 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+  .page-header {
+    max-width: 126.5rem;
+  }
+
+  .currency span {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 70.625rem) {
+  .welcome p,
+  .sidebar-link {
+    font-size: 1.8rem;
+  }
+
+  .market-link,
+  .trend-p h2 .market-table {
+    font-size: 2rem;
+  }
+
+  .market-table {
+    line-height: 2.8;
+  }
+
+  .buy-btn,
+  .transfer-btn {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 66.25rem) {
+  .main-container {
+    max-width: 120rem;
+  }
+  .page-header {
+    width: 180%;
+  }
+
+  .market-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .sidebar-link,
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .trend-p h2 {
+    font-size: 2.4rem;
+  }
+
+  .market-link,
+  .market-table {
+    font-size: 2rem;
+  }
+
+  .market-table {
+    line-height: 2.8;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 60rem) {
+  .welcome h2 {
+    font-size: 3.4rem;
+  }
+
+  .welcome p {
+    font-size: 2rem;
+  }
+
+  .search-profile {
+    gap: 1.2rem;
+  }
+
+  .search-profile {
+    font-size: 2rem;
+  }
+
+  .seach-bar {
+    width: 26rem;
+  }
+
+  .user-img {
+    width: 5.4rem;
+    height: 5.4rem;
+  }
+}
